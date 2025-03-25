@@ -2,6 +2,9 @@
 
 Add a customizable neon text display to your VS Code workspace. Perfect for aesthetic appeal or just a bit of fun while coding.
 
+## Extension Link
+https://marketplace.visualstudio.com/items?itemName=haywan.haywan
+
 ![Neon Text Demo](https://haywan.uz/extension.jpg)
 
 ## Features
