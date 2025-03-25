@@ -2,7 +2,7 @@
 
 Add a customizable neon text display to your VS Code workspace. Perfect for aesthetic appeal or just a bit of fun while coding.
 
-![haywan.uz](https://www.2005.uz/favicon.ico)
+![haywan.uz](https://haywan.uz/extension.jpg)
 
 ## Features
 
