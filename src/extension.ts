@@ -484,11 +484,11 @@ export function activate(context: vscode.ExtensionContext) {
           colorOptions.find((c) => c.label === colorPick.label)?.value ||
           provider.getColor();
 
-        provider.updateText(newText || "ANIMAL", selectedColor);
+        provider.updateText(newText || "haywan", selectedColor);
 
         vscode.commands.executeCommand("workbench.view.extension.haywan-neon");
       } else {
-        provider.updateText(newText || "ANIMAL");
+        provider.updateText(newText || "haywan");
         vscode.commands.executeCommand("workbench.view.extension.haywan-neon");
       }
     })
@@ -593,11 +593,11 @@ export function activate(context: vscode.ExtensionContext) {
         color: string;
         animation: AnimationStyle;
       }> = [
-        { text: "CODE WIZARD", color: "#9400D3", animation: "rainbow" },
-        { text: "HELLO WORLD", color: "#FF4500", animation: "pulse" },
-        { text: "STAY AWESOME", color: "#00BFFF", animation: "flicker" },
-        { text: "CODING NINJA", color: "#32CD32", animation: "wave" },
-        { text: "DEBUG MASTER", color: "#FF1493", animation: "glitch" },
+        { text: "Qisib ishla", color: "#9400D3", animation: "rainbow" },
+        { text: "Sizdan zo'ri yo'q", color: "#FF4500", animation: "pulse" },
+        { text: "Sevgiga anaqa bormi", color: "#00BFFF", animation: "flicker" },
+        { text: "Oylik to'lanmaydigan chala amaliyotchi", color: "#32CD32", animation: "wave" },
+        { text: "Qobiliyatsiz AIchi", color: "#FF1493", animation: "glitch" },
       ];
 
       const randomEgg = eggs[Math.floor(Math.random() * eggs.length)];
