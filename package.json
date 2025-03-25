@@ -10,11 +10,27 @@
   "license": "MIT",
   "publisher": "haywan",
   "icon": "images/favicon.ico",
+  "keywords": [
+    "neon",
+    "text",
+    "animation",
+    "theme",
+    "decoration",
+    "aesthetic",
+    "cyberpunk",
+    "retro",
+    "glow",
+    "effects",
+    "customization",
+    "fun"
+  ],
   "engines": {
     "vscode": "^1.98.0"
   },
   "categories": [
-    "Other"
+    "Other",
+    "Visualization",
+    "Themes"
   ],
   "activationEvents": [],
   "main": "./dist/extension.js",
