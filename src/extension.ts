@@ -82,7 +82,7 @@ class NeonTextViewProvider implements vscode.WebviewViewProvider {
   ) {
     const config = vscode.workspace.getConfiguration("editor");
     const fontFamily =
-      config.get("fontFamily") || "var(--vscode-editor-font-family)";
+      "'Fira Code', monospace, var(--vscode-editor-font-family)";
     const fontSize = config.get("fontSize") || "3rem";
 
     // Different animation styles
@@ -212,6 +212,7 @@ class NeonTextViewProvider implements vscode.WebviewViewProvider {
       <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap">
         <style>
           :root {
             --editor-font: ${fontFamily};
@@ -230,6 +231,7 @@ class NeonTextViewProvider implements vscode.WebviewViewProvider {
             position: relative;
           }
           .neon-text {
+          font-family: 'Fira Code', monospace;
             font-size: 3rem;
             color: #fff;
             text-shadow: 
