@@ -27,6 +27,26 @@
       {
         "command": "haywan.changeNeonColor",
         "title": "Haywan: Change Neon Color"
+      },
+      {
+        "command": "haywan.changeNeonAnimation",
+        "title": "Haywan: Change Animation Style"
+      },
+      {
+        "command": "haywan.randomEffect",
+        "title": "Haywan: Apply Random Text Effect"
+      },
+      {
+        "command": "haywan.applyStylePreset",
+        "title": "Haywan: Apply Style Preset"
+      },
+      {
+        "command": "haywan.toggleNeonView",
+        "title": "Haywan: Toggle Neon View"
+      },
+      {
+        "command": "haywan.easterEgg",
+        "title": "Haywan: Surprise Me!"
       }
     ],
     "viewsContainers": {
@@ -46,7 +66,15 @@
           "type": "webview"
         }
       ]
-    }
+    },
+    "keybindings": [
+      {
+        "command": "haywan.toggleNeonView",
+        "key": "ctrl+shift+n",
+        "mac": "cmd+shift+n",
+        "when": "editorTextFocus"
+      }
+    ]
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
